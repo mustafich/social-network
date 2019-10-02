@@ -1,0 +1,75 @@
+.myPage {
+  color: white;
+  margin-top: 60px;
+
+  &-block {
+    display: flex;
+    justify-content: space-around;
+
+    &_photo {
+      width: 290px;
+      height: 300px;
+    }
+
+    &_info {
+      font-size: 20px;
+
+      &__user {
+        display: flex;
+
+        p {
+          font-size: 32px;
+        }
+
+        &___firstName {
+
+        }
+
+        &___lastName {
+          margin-left: 10px;
+        }
+
+      }
+
+      &__status {
+        font-size: 26px;
+        margin: 30px 10px 10px 10px;
+      }
+
+      &__data {
+        display: flex;
+        margin: 10px;
+      }
+
+      &__from {
+        display: flex;
+        margin: 10px;
+      }
+
+      &__city {
+        display: flex;
+        margin: 10px;
+      }
+
+      &__butt {
+        width: 50%;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 25px;
+        transition: 1s;
+
+        button {
+          color: white;
+          margin: 5px;
+          &:hover {
+            color: black;
+            transition: 0.6s;
+          }
+        }
+
+
+
+      }
+    }
+  }
+}

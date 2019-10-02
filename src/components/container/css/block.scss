@@ -1,0 +1,8 @@
+.block {
+  flex-grow: 1;
+  margin-top: 90px;
+  padding-top: 30px;
+  &-layout {
+    display: flex;
+  }
+}

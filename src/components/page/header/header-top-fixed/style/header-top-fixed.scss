@@ -1,0 +1,30 @@
+
+.header {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  background: #4a76a8;
+  box-sizing: border-box;
+  border-bottom: 1px solid #4872a3;
+  &-block {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_logo {
+      span {
+        font-size: 28px;
+        color: white;
+      }
+    }
+    &_account {
+      display: flex;
+      a {
+        margin: 0 10px 0 10px;
+        color: white;
+        font-size: 18px;
+        text-decoration: none
+        }
+      }
+    }
+  }

@@ -1,0 +1,17 @@
+.footer {
+  margin-top: 100px;
+  flex-shrink: 0;
+  background: #4a76a8;
+  box-sizing: border-box;
+  border-bottom: 1px solid #4872a3;
+  &-block {
+    align-items: center;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 18px;
+      color: white;
+    }
+  }
+}

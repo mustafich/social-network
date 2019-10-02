@@ -1,0 +1,29 @@
+.header {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  background: #4a76a8;
+  box-sizing: border-box;
+  border-bottom: 1px solid #4872a3;
+}
+.header-block {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-block_logo span {
+  font-size: 28px;
+  color: white;
+}
+.header-block_account {
+  display: flex;
+}
+.header-block_account a {
+  margin: 0 10px 0 10px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header-top-fixed.css.map */

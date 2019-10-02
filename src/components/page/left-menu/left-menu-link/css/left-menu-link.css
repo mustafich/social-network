@@ -1,0 +1,26 @@
+.left {
+  padding-top: 15px;
+  width: 195px;
+  max-height: 550px;
+  min-height: 550px;
+  background: #4a76a8;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+.left-menu {
+  display: flex;
+  flex-direction: column;
+}
+.left-menu i {
+  color: black;
+}
+.left-menu a {
+  margin: 10px;
+  font-size: 18px;
+}
+.left-menu a:last-child {
+  margin: 50px 0 55px 10px;
+}
+
+/*# sourceMappingURL=left-menu-link.css.map */

@@ -1,0 +1,24 @@
+.left {
+  padding-top: 15px;
+  width: 195px;
+  max-height: 550px;
+  min-height: 550px;
+  background: #4a76a8;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  &-menu {
+ i {
+   color:black;
+ }
+    display: flex;
+    flex-direction: column;
+    a {
+      margin: 10px;
+      font-size: 18px;
+      &:last-child {
+        margin:50px 0 55px 10px;
+      }
+    }
+  }
+}

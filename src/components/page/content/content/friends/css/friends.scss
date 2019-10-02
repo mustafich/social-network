@@ -1,0 +1,93 @@
+.friends {
+  &-menu {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    text-align: center;
+
+    &_friends {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      border: 2px solid black;
+    }
+
+    &_user {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      border: 2px solid black;
+    }
+
+    p {
+
+      width: 100%;
+      font-size: 30px;
+
+      &:hover {
+        transition: .7s;
+        color: black;
+      }
+    }
+
+  }
+
+  &-block {
+    display: flex;
+    flex-wrap: wrap;
+
+    &_box {
+      cursor: pointer;
+      margin: 10px;
+      border: 2px solid black;
+      width: 180px;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &:hover {
+        transition: .4s;
+        border: 8px solid black;
+      }
+
+      &__userPhoto {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 120px;
+      }
+      &__userButton {
+        border: 2px solid black;
+        border-radius: 25px;
+        button {
+          color: white;
+          margin: 5px;
+        }
+        :hover {
+          color: black;
+          transition: .6s;
+        }
+      }
+    }
+
+    &:last-child {
+      margin: 30px;
+    }
+
+    &:after {
+
+    }
+  }
+}
+.activeFriends {
+ p {
+   color: black;
+   &:hover {
+color: white;
+   }
+ }
+}

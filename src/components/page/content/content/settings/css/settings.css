@@ -1,0 +1,44 @@
+.settings button {
+  float: right;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+.settings button:hover {
+  border: 2px solid black;
+  transition: 1s;
+}
+.settings-block {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.settings-block_left__photo {
+  width: 250px;
+}
+.settings-block_left__photo___box {
+  align-items: center;
+  display: flex;
+}
+.settings-block_right {
+  margin-top: -80px;
+}
+.settings-block_right__box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.settings-block_right__box p {
+  width: 100px;
+  text-align: right;
+}
+.settings-block_right__box input {
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=settings.css.map */

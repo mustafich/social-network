@@ -1,0 +1,57 @@
+.myPage {
+  color: white;
+  margin-top: 60px;
+}
+.myPage-block {
+  display: flex;
+  justify-content: space-around;
+}
+.myPage-block_photo {
+  width: 290px;
+  height: 300px;
+}
+.myPage-block_info {
+  font-size: 20px;
+}
+.myPage-block_info__user {
+  display: flex;
+}
+.myPage-block_info__user p {
+  font-size: 32px;
+}
+.myPage-block_info__user___lastName {
+  margin-left: 10px;
+}
+.myPage-block_info__status {
+  font-size: 26px;
+  margin: 30px 10px 10px 10px;
+}
+.myPage-block_info__data {
+  display: flex;
+  margin: 10px;
+}
+.myPage-block_info__from {
+  display: flex;
+  margin: 10px;
+}
+.myPage-block_info__city {
+  display: flex;
+  margin: 10px;
+}
+.myPage-block_info__butt {
+  width: 50%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  transition: 1s;
+}
+.myPage-block_info__butt button {
+  color: white;
+  margin: 5px;
+}
+.myPage-block_info__butt button:hover {
+  color: black;
+  transition: 0.6s;
+}
+
+/*# sourceMappingURL=myPage.css.map */
